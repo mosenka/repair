@@ -1,0 +1,86 @@
+.header
+	position: relative
+	padding: 120px 0 40px
+	text-align: center
+	&__link
+		position: absolute
+		top: 16px
+		left: 30px
+		color: #0C1B66
+		text-transform: uppercase
+		font-size: 24px
+		font-weight: 600
+		letter-spacing: -0.02em
+	&__title
+		margin: 0 auto
+		display: block
+		max-width: 70%
+		font-size: 30px
+		line-height: 1.2
+		font-weight: 600
+		letter-spacing: -0.02em
+	&__desc
+		margin: 0 auto
+		display: block
+		max-width: 75%
+		padding-top: 20px
+		font-size: 18px
+		letter-spacing: -0.02em
+		&-bottom
+			max-width: 100%
+			padding-top: 45px
+	&__button
+		margin: 34px auto 0
+		padding: 15px 80px
+		background: #fff
+		border: 2px solid #000
+		border-radius: 12px
+		outline: none
+		font-size: 16px
+		font-weight: 600
+		line-height: 1
+		display: flex
+		align-items: center
+		justify-content: center
+		transition: all .3s
+		i
+			font-size: 23px
+			margin-left: 25px
+
+
+
+		
+.slider
+	overflow: hidden
+	padding-top: 46px
+	position: relative
+	&__item
+		border-radius: 22px
+	&__img, source
+		width: 320px
+		height: auto
+
+
+.navigation
+	width: 108px
+	background: transparent
+	position: absolute
+	top: 55px
+	right: 25px
+	z-index: 8
+	display: flex
+	justify-content: space-between
+	&__arrow
+		width: 48px
+		height: 48px
+		border-radius: 50%
+		background: #fff
+		font-size: 24px
+		display: flex
+		align-items: center
+		justify-content: center
+		cursor: pointer
+		transition: all .3s
+		&-next
+			transform: rotate(180deg)
+		

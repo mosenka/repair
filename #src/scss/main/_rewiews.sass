@@ -1,0 +1,127 @@
+.rewiews
+	background: #F2F6FF
+	padding: 35px 0 0
+	&__title
+		width: 100%
+		text-align: center
+		font-size: 20px
+	&__slider
+		padding: 35px 0
+		overflow: hidden
+
+
+.rewiew
+	padding: 20px 30px 
+	box-sizing: border-box
+	background: #fff
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, .25)
+
+	&__title
+		font-size: 16px
+		font-weight: 700
+		margin-bottom: 12px
+	&__wrapper
+		padding-left: 25px
+		padding-top: 5px
+
+
+.author-rewiew
+	display: flex
+	flex-direction: row
+	align-items: flex-start
+	flex-wrap: wrap
+	transition: color .3s
+	&__icon
+		position: relative
+		width: 60px
+		height: 60px
+		border-radius: 50%
+		overflow: hidden
+		border: 1px solid #696969
+	&__img, sourse
+		width: 100%
+		height: auto
+		position: absolute
+		top: 50%
+		left: 50%
+		transform: translate(-50%, -50%)
+	&__name
+		font-weight: 600
+		font-size: 18px
+		color: #0057FF
+
+
+
+
+.rating-rewiew
+	display: flex
+	align-items: center
+	justify-content: flex-start 
+	&__stars
+		margin-right: 5px
+		display: flex
+		align-items: center
+		justify-content: flex-start
+	&__star
+		font-size: 20px
+		color: #878787
+		margin-right: 3px
+	&__star-active
+		color: #f7a238
+	&__num
+		font-size: 18px
+
+
+
+
+
+
+.content-rewiew
+	padding-top: 15px
+	&__item
+		margin-bottom: 15px
+		&-total
+			margin-bottom: 20px
+		&-minus
+			margin-bottom: 0
+
+	&__subtitle
+		font-size: 16px
+		font-weight: 700
+		display: flex
+		align-items: center
+		justify-content: flex-start
+		&::before
+			content: ''
+			display: inline-block
+			margin-right: 7px
+			margin-left: 10px
+		&-plus, &-minus
+			font-size: 14px
+			color: #333
+		&-total::before
+			width: 8px
+			height: 8px
+			border-radius: 50%
+			background-color: #F7A238
+			// margin-left: 10px
+		&-plus::before
+			content: '+'
+			font-size: 20px
+			font-weight: 700
+			color: #14B910
+		&-minus::before
+			content: '-'
+			font-size: 20px
+			color: #FF0000
+			
+
+	&__text
+		padding-top: 7px
+		font-family: 'IBM Plex Sans', sans-serif
+		&-plus, &-minus
+			color: #333
+
+
+
+
